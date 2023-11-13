@@ -10,7 +10,6 @@ public class HashMapDivisionHash extends HashMap {
 
     @Override
     public int hash(int value) {
-        // Implementação simples de hash da divisão.
         return value % getSize();
     }
 }
